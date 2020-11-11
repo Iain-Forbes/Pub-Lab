@@ -19,4 +19,6 @@ class TestPub(unittest.TestCase):
     def test_increase_till(self):
         self.pub.increase_till(5)
         self.assertEqual(105, self.pub.till)
+
+        
         

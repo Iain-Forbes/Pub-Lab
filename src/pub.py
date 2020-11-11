@@ -6,4 +6,4 @@ class Pub:
         self.customers = []
        
     def increase_till(self, amount):
-        self.till += amount   
+        self.till += amount
